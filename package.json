@@ -1,0 +1,32 @@
+{
+  "name": "ngk-youtubess",
+  "version": "1.0.0",
+  "description": "Sebuah aplikasi fullstack menggunakan express js dan ejs sebagai view engine nya untuk aplikasi youtube",
+  "homepage": "https://github.com/HuntNugie/ngk-youtubess#readme",
+  "bugs": {
+    "url": "https://github.com/HuntNugie/ngk-youtubess/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuntNugie/ngk-youtubess.git"
+  },
+  "license": "ISC",
+  "author": "Nugie kurniawan (HuntNugie)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
