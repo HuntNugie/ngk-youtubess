@@ -26,4 +26,5 @@ app.get("/",(req,res)=>{
 
 app.use("/home",Routerss.homeRouter)
 app.use("/about",Routerss.aboutRouter)
+app.use("/search",Routerss.searchRouter)
 export default app;
